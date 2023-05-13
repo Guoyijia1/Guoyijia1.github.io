@@ -1,0 +1,134 @@
+body {
+	background-color: black;
+	background-image: url(../imag/Motel.gif);
+
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+body:after {
+  display: none;
+  /*content: url(../imag/Motel.gif);*/
+}
+
+a {
+	cursor: url(../cursors/key.png), auto;
+	color: black;
+}
+a:link { text-decoration: none; }
+
+
+.informationbox {
+
+	position: fixed;
+
+	width: 500px;
+	height: 200px;
+	
+	bottom: 220px;
+
+	font-size: 20px;
+
+	align-self: center;
+	padding-left: 1000px;
+	
+
+
+}
+
+.main-intro-left {
+	width: 100%;
+	height: 100%;
+text-align: right;
+
+color: white;
+display: flex;
+
+font-family: 'Special Elite', cursive;
+}	
+
+.main-intro-right {
+		width: 100%;
+	height: 50%;
+	
+text-align: left;
+color: white;
+
+font-family: 'Special Elite', cursive;
+
+}
+
+.header-main {
+	position: fixed;
+	bottom: 220px;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(150, 150, 150, 0.5);;
+	display: flex;
+	/* ?display' make the sontent side by side*/
+
+	justify-content: space-between;
+	z-index: 100;
+
+	cursor: url(../cursors/key.png), auto;
+
+	font-size: 30px;
+}
+
+
+
+
+.header-main-logo {
+	width: fit-content;
+	height: 100%;
+	
+	padding-left: 60px;
+	display: flex;
+
+}
+
+.header-main-logo img {
+	height: 80;
+	align-self: center;
+
+}
+
+.header-main-nav {
+		width: fit-content;
+	height: 100%;
+	/*background-color: black;*/
+}
+
+
+.header-main-nav ul {
+	list-style: none;
+	margin-left: 30px;
+}
+
+.header-main-nav ul li {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.header-main-nav ul li a {
+	padding: 0 10px;
+	/*0 pixel from top to bottom, 10 pixel from left to right */
+	font-family: 'Rubik Pixels', cursive;
+	line-height: 30px;
+	display: block;
+	height: 100%;
+
+
+}
+
+.header-main-nav ul li a:hover {
+	color: white;
+	font-size: 70px;
+	transition: all ease-in-out 1000ms;
+
+}
+

@@ -1,0 +1,268 @@
+body {
+	background-color: black;
+
+
+	/*background-image: url(../imag/jaw.gif);*/
+}
+
+a {
+	cursor: pointer;
+	color: black;
+}
+a:link { text-decoration: none; }
+
+ul {
+    list-style: none;
+}
+
+.jawBanner {
+
+	margin-left: 100px;
+	top: 1px;
+    opacity: 1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url(../imag/jaw.gif);
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+
+}
+
+
+
+
+
+
+
+
+.container {
+	
+	position: relative;
+	width: 50%;
+	height: 200vh;
+	opacity: 1;
+	background-color: rgb(0, 0, 0,0);
+	background-image: url(../imag/line2.png);
+	background-size: cover;
+	z-index: 0;
+	margin-top: 100px;
+	z-index: 2;
+
+
+}
+
+.myimage {
+
+	width:100%;
+  height: 100%;
+  background-image: url(../imag/line2.png);
+  /*background-size: 30%;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text{
+	color: black;
+
+	font-size: 100px;
+}
+
+.main-nav ul li a {
+	color: white;
+	font-size: 50px;
+	list-style: none
+	text-align: right;
+
+
+
+}
+
+.specialBlack {
+	color: black;
+	font-size: 70px;
+
+}
+.box1 {
+	/*position: static;*/
+	/*position: relative;*/
+
+
+	padding-left: 60px;
+	position: sticky;
+
+	right: 0;
+	top: 50px;
+
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	z-index: 10;
+	align-self: center;
+
+	
+
+}
+ 
+
+
+.box2 {
+	/*position: static;*/
+	/*position: relative;*/
+	position: sticky;
+	text-align: right;
+
+	right: 80px;
+	top: 50px;
+
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	z-index: -10;
+
+	margin-left: 140px;
+}
+ 
+
+
+.box3 {
+	/*position: static;*/
+	/*position: relative;*/
+	position: sticky;
+
+	right: 110;
+	top: 50px;
+
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	z-index: -10;
+
+	margin-left: 200px;
+}
+ 
+
+.box4 {
+	/*position: static;*/
+	/*position: relative;*/
+	position: sticky;
+
+	right: 160;
+	top: 50px;
+	
+
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	z-index: -10;
+
+	margin-left: 300px;
+}
+ 
+
+
+ .header-main {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: ghostwhite;
+	display: flex;
+	/* ?display' make the sontent side by side*/
+
+	justify-content: space-between;
+	z-index: -100;
+}
+
+
+
+
+.header-main .div-1 {
+  width: 400px;
+ /* background-color: pink;*/
+  /*order: 3;*/
+  /*order: 3;*的意思是可以移动到第三个位置*/
+}
+
+.header-main .div-2 {
+  width: 400px;
+  /*background-color: yellow;*/
+}
+
+.header-main .div-3 {
+  width: 400px;
+  /*background-color: yellowgreen;*/
+  flex-basis: 100px;
+  flex-grow:  1;
+}
+
+/*z-index is represented the deep in z*/
+
+
+.header-main-sm {
+		width: 120px;
+	height: 100%;
+	background-color: red;
+	padding-right: 60px;
+	display: flex;
+	align-items: center;
+	row-gap: 2px;
+
+	
+}
+
+.header-main-sm-fb {
+	width: 80px;
+	height: 80px;
+	background-image: url(../image/Marieafter.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.header-main-sm-fb:hover {
+	background-image: url(../image/Mariebefore.jpg) ;
+}
+
+
+.header-main-sm-in {
+	width: 80px;
+	height: 80px;
+	background-image: url(../image/0003.png);
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.header-main-sm-in:hover {
+	background-image: url(../image/0001.png) ;
+}
+
+
+.container-img {
+	
+	width: 300px;
+	height: 200px;
+background-size: cover;
+	margin-top: 500px;
+	margin-left: 200px;
+	width: 350px;
+	height: 205px;
+
+}
+
+.container-img-link {
+	width: 400px;
+	height: 300px;
+	background-image: url(../imag/Mariebefore.jpg); 
+		background-repeat: repeat;
+	background-size: cover;
+}
+
+.container-img-link:hover {
+	background-image: url(../imag/Marieafter.jpg);
+	transition: all ease-in-out 700ms;
+
+	
+}
+

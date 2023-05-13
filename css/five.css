@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+		background-image: url(../imag/Motel.gif);
+
+	  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+	cursor: pointer;
+	color: white;
+}
+a:link { text-decoration: none; }
+
+ul {
+    list-style: none;
+}
+
+
+.mytextbox {
+	color: white;
+	position: fixed;
+
+	width: 600px;
+	height: 200px;
+	
+	bottom: 220px;
+
+	font-size: 20px;
+
+	align-self: center;
+	padding-left: 600px;
+
+	font-family: 'Special Elite', cursive;
+}
+
+

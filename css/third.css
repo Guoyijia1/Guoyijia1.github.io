@@ -1,0 +1,102 @@
+body {
+	background-color: black;
+}
+
+a {
+	cursor: pointer;
+	color: black;
+}
+a:link { text-decoration: none; }
+
+ul {
+    list-style: none;
+}
+
+.back {
+	display: flex;
+}
+.box {
+	height: 100vh;
+	width: 25%;
+}
+
+
+.first {
+	
+	background-image: url(../imag/m0.JPG);
+  /*background-size: 30%;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+	cursor: url(../cursors/knife.png), auto;
+}
+
+.first:hover {
+  background-image: url(../imag/m1.JPG);
+  transition: all ease-in-out 500ms;
+}
+
+.second {
+	background-image: url(../imag/m0.JPG);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: url(../cursors/knife2.png), auto;
+
+}
+
+.second:hover {
+  background-image: url(../imag/m1.JPG);
+  transition: all ease-in-out 500ms;
+
+}
+
+.third {
+background-image: url(../imag/m0.JPG);
+cursor: url(../cursors/knife3.png), auto;
+}
+
+.third:hover {
+  background-image: url(../imag/m6.JPG);
+  transition: all ease-in-out 500ms;
+
+}
+
+.fourth {
+background-image: url(../imag/m0.JPG);
+cursor: url(../cursors/knife4.png), auto;
+}
+
+.fourth:hover {
+  background-image: url(../imag/m2.JPG);
+  transition: all ease-in-out 500ms;
+
+}
+
+.back-image-1: hover {
+
+
+background-image: url(../imag/m0.jpg);
+}
+
+
+.text {
+	color: red;
+
+	/*color 的颜色没有变*/
+
+	font-size: 70px;
+}
+
+.text:hover {
+
+	font-size: 80px;
+	color: white;
+
+	transition: all ease-in-out 500ms;
+
+}
+
+
+
